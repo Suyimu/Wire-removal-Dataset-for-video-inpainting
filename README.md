@@ -8,9 +8,26 @@ This is a dataset for the example project. The dataset contains image data for t
 
 Below are some examples from the dataset. Each example includes an image and its corresponding label.
 
-![Example Image 1](example/8m56s-GT/00000.png)
-![Example Image 2](example/8m56s-IN/00000.png)
-![Example Image 3](example/8m56s-MASK/00000.png)
+<div style="display: flex; justify-content: space-between;">
+  
+  <div style="flex: 1; text-align: center; padding: 5px; max-width: 100%;">
+    <img src="example/8m56s-GT/00000.png" style="width: 50%; height: auto;">
+    <p>Example Image 1: Original Image</p>
+  </div>
+  
+  <div style="flex: 1; text-align: center; padding: 5px; max-width: 100%;">
+    <img src="example/8m56s-MASK/0001.png" style="width: 50%; height: auto;">
+    <p>Example Image 2: Mask</p>
+  </div>
+  
+  <div style="flex: 1; text-align: center; padding: 5px; max-width: 100%;">
+    <img src="example/8m56s-IN/0001.png" style="width:50%; height: auto;">
+    <p>Example Image 3: Artificially Restored Image</p>
+  </div>
+  
+</div>
+
+
 
 
 ## Wire-removal Dataset Link
@@ -38,7 +55,7 @@ pages={1082--1092},
 year={2022},
 publisher={IEEE}
 }
-   ```
+```
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Please refer to the LICENSE file for detailed terms.
