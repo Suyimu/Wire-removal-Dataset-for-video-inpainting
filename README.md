@@ -33,13 +33,13 @@ Below are some examples from the dataset. Each example includes an image and its
 
 
 
-## Wire-removal Dataset Link
+## Wire-removal Dataset Link (480P version)
 
-480P version
+[Baidu Disk](https://pan.baidu.com/s/1aKNL7l1tr_WPkyrfxAXqxw?pwd=xc17)
 
-[Dataset Download Link](https://pan.baidu.com/s/1aKNL7l1tr_WPkyrfxAXqxw?pwd=xc17)
+[Google Drive](https://drive.google.com/file/d/1qxRGsgI-qku8bJ13jKpbY6cJGc4fDlpu/view?usp=drive_link)
 
-4K version
+## Wire-removal Dataset Link(4K version)
 
 Waiting for updates ......
 
