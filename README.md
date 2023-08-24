@@ -4,6 +4,15 @@ G2LP-Net: Global to Local Progressive Video Inpainting Network
 
 This is a dataset for the example project. The dataset contains image data for the video inpainting or video wire-removal task.
 
+## Data Examples
+
+Below are some examples from the dataset. Each example includes an image and its corresponding label.
+
+![Example Image 1](example/8m56s-GT/00000.png)
+![Example Image 2](example/8m56s-IN/00000.png)
+![Example Image 3](example/8m56s-MASK/00000.png)
+
+
 ## Wire-removal Dataset Link
 
 480P version
