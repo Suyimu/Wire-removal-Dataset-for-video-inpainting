@@ -1,8 +1,11 @@
 # G2LP
 G2LP-Net: Global to Local Progressive Video Inpainting Network
 # Wire-removal Dataset
+The WRV dataset has been specifically curated for the challenges of video inpainting in irregularly slender regions. It encompasses 150 video clips (now 190) that are extracted from movies and TV series. What sets the WRV dataset apart is its real-world scenarios where video frames may not have fixed foregrounds, or might even showcase multiple dynamic foregrounds such as action sequences involving several individuals.
 
-This is a dataset for the example project. The dataset contains image data for the video inpainting or video wire-removal task.
+A distinct feature of this dataset is the naturally occurring masks due to dynamic thin wires and small auxiliary props commonly used in martial arts stunts. This makes the dataset particularly representative of genuine challenges found in film post-production.
+
+The primary challenge with the WRV dataset lies in effectively utilizing contextual information. Due to the irregular and slender nature of the to-be-inpainted regions, leveraging surrounding contextual details is paramount to achieving authentic inpainting results.
 
 ## Data Examples
 
