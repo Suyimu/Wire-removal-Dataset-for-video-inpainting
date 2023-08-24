@@ -1,5 +1,5 @@
 # G2LP
-G2LP-Net: Global to Local Progressive Video Inpainting Network
+Wire-removal Dataset in G2LP-Net: Global to Local Progressive Video Inpainting Network
 # Wire-removal Dataset
 The WRV dataset has been specifically curated for the challenges of video inpainting in irregularly slender regions. It encompasses 150 video clips (now 190) that are extracted from movies and TV series. What sets the WRV dataset apart is its real-world scenarios where video frames may not have fixed foregrounds, or might even showcase multiple dynamic foregrounds such as action sequences involving several individuals.
 
