@@ -67,6 +67,7 @@ Focuses on three critical aspects for thin irregular mask inpainting:
 
 
 ## Citation
+If you find our work helpful, please consider citing the following paper 🙏 
 ```bibtex
 @article{ji2022g2lp,
   title={G2LP-Net: Global to Local Progressive Video Inpainting Network},
