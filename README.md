@@ -79,7 +79,16 @@ Focuses on three critical aspects for thin irregular mask inpainting:
   publisher={IEEE}
 }
 ```
-
+```bibtex
+@misc{ji2024raformer,
+   title={Raformer: Redundancy-Aware Transformer for Video Wire Inpainting}, 
+   author={Zhong Ji and Yimu Su and Yan Zhang and Jiacheng Hou and Yanwei Pang and Jungong Han},
+   year={2024},
+   eprint={2404.15802},
+   archivePrefix={arXiv},
+   primaryClass={cs.CV}
+}
+```
 ## License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
