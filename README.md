@@ -1,64 +1,90 @@
-# G2LP
-Wire-removal Video Dataset in G2LP-Net: Global to Local Progressive Video Inpainting Network
-# Wire-removal Video Dataset
-The WRV dataset has been specifically curated for the challenges of video inpainting in irregularly slender regions. It encompasses 150 video clips that are extracted from movies and TV series. What sets the WRV dataset apart is its real-world scenarios where video frames may not have fixed foregrounds, or might even showcase multiple dynamic foregrounds such as action sequences involving several individuals.
+# Wire-Removal Video Dataset (WRV)
 
-A distinct feature of this dataset is the naturally occurring masks due to dynamic thin wires and small auxiliary props commonly used in martial arts stunts. This makes the dataset particularly representative of genuine challenges found in film post-production.
+## Dataset Overview
+**Wire-Removal Video Dataset (WRV)** is a specialized benchmark for video inpainting in irregular slender regions, designed for film/TV post-production scenarios. Key features include:
+- 🎬 **150 video clips** curated from movies/TV series  
+- 🌟 **Real-world dynamics**: Non-static foregrounds, multi-actor scenes  
+- 🎭 **Natural masks**: Generated from dynamic wires/props in martial arts stunts  
+- 🏆 **Industrial relevance**: Directly addresses practical wire removal needs  
 
-The primary challenge with the WRV dataset lies in effectively utilizing contextual information. Due to the irregular and slender nature of the to-be-inpainted regions, leveraging surrounding contextual details is paramount to achieving authentic inpainting results.
+## Technical Challenges
+<div align=center><img src="different.png" width=50%></div>
 
-## Data Examples
+Focuses on three critical aspects for thin irregular mask inpainting:
+1. **Long-range temporal coherence** - Cross-frame consistency maintenance  
+2. **High-frequency detail synthesis** - Texture reconstruction in wire regions  
+3. **Multi-motion reasoning** - Trajectory prediction for dynamic objects  
 
-Below are some examples from the dataset. Each example includes an image and its corresponding label.
+## Data Samples
+<div align="center">
 
-<div style="display: flex; justify-content: space-between;">
-  
-  <div style="flex: 1; text-align: center; padding: 5px; max-width: 100%;">
-    <img src="example/8m56s-GT/00000.png" style="width: 50%; height: auto;">
-    <p>Example Image 1: Original Image</p>
-  </div>
-  
-  <div style="flex: 1; text-align: center; padding: 5px; max-width: 100%;">
-    <img src="example/8m56s-MASK/0001.png" style="width: 50%; height: auto;">
-    <p>Example Image 2: Mask</p>
-  </div>
-  
-  <div style="flex: 1; text-align: center; padding: 5px; max-width: 100%;">
-    <img src="example/8m56s-IN/0001.png" style="width:50%; height: auto;">
-    <p>Example Image 3: Artificially Restored Image</p>
-  </div>
-  
+| Raw Frame (GT) | Dynamic Mask | Professional Restoration |
+|:---:|:---:|:---:|
+| <img src="example/8m56s-GT/00000.png" width=90%> | <img src="example/8m56s-MASK/0001.png" width=90%> | <img src="example/8m56s-IN/0001.png" width=90%> |
+| Original frame with wires | Slender region annotation | Expert manual restoration |
+
 </div>
 
+## Download
+### Standard Definition (480P)
+🔗 [Baidu Disk](https://pan.baidu.com/s/1aKNL7l1tr_WPkyrfxAXqxw?pwd=xc17)  
+🔑 Access Code: `xc17`  
 
+🔗 [Google Drive](https://drive.google.com/file/d/1qxRGsgI-qku8bJ13jKpbY6cJGc4fDlpu/view)
 
+### 4K Version
+🚧 Coming soon...
 
-## Wire-removal Dataset Link (480P version)
+---
 
-[Baidu Disk](https://pan.baidu.com/s/1aKNL7l1tr_WPkyrfxAXqxw?pwd=xc17)
+## 🚀 Extended Resources  
+**For industrial-grade video inpainting research**, we strongly recommend:  
 
-[Google Drive](https://drive.google.com/file/d/1qxRGsgI-qku8bJ13jKpbY6cJGc4fDlpu/view?usp=drive_link)
+<div style="background: #f5f5f5; padding: 15px; border-radius: 8px; margin: 20px 0;">
+  <h3 style="color: #2E86C1; margin-top: 0;">📈 WRV2 Dataset (Enhanced Version)</h3>
+  
+  🔗 <a href="https://github.com/Suyimu/WRV2" style="font-weight: bold;">GitHub Repository</a>  
+  
+  <div style="display: flex; gap: 15px; margin: 10px 0;">
+    <div style="flex: 1;">
+      ✅ <strong>4000+ video groups</strong><br>
+      ✅ <strong>4K resolution support</strong><br>
+      ✅ Dynamic multi-object masks
+    </div>
+    <div style="flex: 1;">
+      ✅ Wire-shape mask generation<br>
+      ✅ Pre-trained models<br>
+      ✅ Richer scenarios
+    </div>
+  </div>
 
-## Wire-removal Dataset Link(4K version)
+  <p style="border-left: 4px solid #2E86C1; padding-left: 10px; margin: 10px 0;">
+  <em>Designed for both academic research and production pipelines, WRV2 provides the largest available training resources for professional video restoration tasks.</em>
+  </p>
+</div>
 
-Waiting for updates ......
+---
+
 
 ## Citation
-
-
-If this research benefits your work or involves the use of this dataset, please consider citing the following paper:
-   ```bibtex
+```bibtex
 @article{ji2022g2lp,
-title={G2LP-Net: Global to Local Progressive Video Inpainting Network},
-author={Ji, Zhong and Hou, Jiacheng and Su, Yimu and Pang, Yanwei and Li, Xuelong},
-journal={IEEE Transactions on Circuits and Systems for Video Technology},
-volume={33},
-number={3},
-pages={1082--1092},
-year={2022},
-publisher={IEEE}
+  title={G2LP-Net: Global to Local Progressive Video Inpainting Network},
+  author={Ji, Zhong and Hou, Jiacheng and Su, Yimu and Pang, Yanwei and Li, Xuelong},
+  journal={IEEE Trans. Circuits Syst. Video Technol.},
+  volume={33},
+  number={3},
+  pages={1082--1092},
+  year={2022},
+  publisher={IEEE}
 }
 ```
-## License
 
-This project is licensed under the [MIT License](LICENSE). Please refer to the LICENSE file for detailed terms.
+## License
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+---
+**Maintainers**: G2LP Development Team  
+**Last Updated**:  2025.02.21
+**Document Version**: 2.1
+---
